@@ -38,6 +38,10 @@ h1{
     align-items: center;
 }
 
+.hidden {
+    display: none;
+}
+
 .counter-block {
     text-align: center;
     font-weight: 600;
