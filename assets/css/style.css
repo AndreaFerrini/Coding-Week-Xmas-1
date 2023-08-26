@@ -1,4 +1,119 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(111, 238, 111);
+}
+
+.container{
+    width: 350px;
+    margin: 32px auto 0 auto;
+}
+
+.xmas-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel{
+    background-color: rgb(12, 12, 158);
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(209, 209, 54);
+    margin-bottom: 24px;
+    font-size: 38px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-block {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(209, 209, 54);
+    padding: 24px;
+}
+
+.counter-block:last-child{
+    color: rgb(189, 136, 39);
+}
+
+.counter-block-number {
+    font-size: 42px;
+}
+
+.counter-block-label {
+    font-size: 20px;
+}
+
+/* Decorations */
+.tree{
+    position: relative;
+}
+
+.star{
+    position: absolute;
+    width: 150px;
+    top: 20px;
+    right: 650px;
+}
+
+.gift{
+    position: absolute;
+    width: 380px;
+    bottom: 0px;
+    right: 300px;
+}
+
+.ball{
+    position: absolute;
+    width: 65px;
+}
+
+.ball1{
+    bottom: 305px;
+    right: 650px;
+}
+
+.ball2{
+    top: 230px;
+    right: 740px;
+    width: 150px;
+}
+
+.ball3{
+    bottom: 240px;
+    right: 820px;
+}
+
+.ball4{
+    top: 180px;
+    right: 600px;
+}
+
+.ball5{
+    top: 430px;
+    right: 750px;
+    width: 80px;
+}
+
+.ball6{
+    bottom: 275px;
+    right: 490px;
+}
+
+.ball7{
+    top: 330px;
+    right: 550px;
 }
